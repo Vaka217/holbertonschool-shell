@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -aR | LC_ALL=C sort
