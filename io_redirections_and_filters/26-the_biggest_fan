@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -rn | head -n 11
+sort -t ' ' -k 7 | head -n 11
