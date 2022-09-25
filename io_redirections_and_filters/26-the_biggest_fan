@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -S -l 
+rev | cut -d ' ' -k 1 | rev | sort -n 
