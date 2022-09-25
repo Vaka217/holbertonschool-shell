@@ -1,2 +1,2 @@
 #!/bin/bash
-rev | sort -t ' ' -k  1 -n
+sort -u -t ' ' -k 1
