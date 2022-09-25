@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u -t ' ' -k 1 | rev | uniq -f -7 
+sort -u -t ' ' -k 1 | cut -d' ' -f 1 
