@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1 | sort -u
+cut -f 1 | sort
