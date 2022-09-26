@@ -1,2 +1,2 @@
 #!/bin/bash
-tr $WATER 01234 | tr $STIR 01234 | WATER=$(($WATER + $STIR)) | echo $WATER
+tr $WATER 01234 | tr $STIR 01234 | alfredo=$(($WATER + $STIR)) | echo $alfredo
