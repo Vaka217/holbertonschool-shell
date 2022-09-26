@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | egrep -v '^(..)+$' 
+cat -n | grep -v '^\(..\)\+$' 
