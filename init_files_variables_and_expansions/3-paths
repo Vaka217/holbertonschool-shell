@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr -dc ':' | echo ((wc -m+1)) 
+echo $PATH | tr -dc ':' | contar="wc -m" | echo ((contar+1)) 
