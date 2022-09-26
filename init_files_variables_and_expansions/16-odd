@@ -1,2 +1,2 @@
 #!/bin/bash
-page +/13579/  
+paste - - 
